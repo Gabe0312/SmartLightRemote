@@ -17,7 +17,7 @@ class LightAdapter(
 
     inner class VH(v: View) : RecyclerView.ViewHolder(v){
 
-        val name: TextView = v.findViewById(R.id.lightName)
+        val name: TextView =  v.findViewById(R.id.lightName)
         val room: TextView = v.findViewById(R.id.txtRoom)
         val power: ImageButton = v.findViewById(R.id.powerButton)
 
